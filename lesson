@@ -20,3 +20,43 @@ if (hasDriversLicense && hasGoodVision && !isTired) {
 } else {
   console.log('Someone else should drive...');
 }
+
+
+
+/ const dolphinsAverage = (96 + 108 + 89) / 3;
+// const koalasAverage = (88 + 91 + 110) / 3;
+// console.log(dolphinsAverage);
+// console.log(koalasAverage);
+
+// if (dolphinsAverage > koalasAverage) {
+//   console.log('Dolphins Win!');
+// } else {
+//   console.log('Koalas Win!');
+// }
+
+// const scoreDolphins = (96 + 108 + 89) / 3;
+// const scoreKoalas = (88 + 91 + 110) / 3;
+// console.log(scoreDolphins, scoreKoalas);
+
+// if (scoreDolphins > scoreKoalas) {
+//   console.log('Dolphins Win');
+// } else if (scoreKoalas > scoreDolphins) {
+//   console.log('Koalas Win');
+// } else if (scoreDolphins === scoreKoalas) {
+//   console.log('Both win');
+// }
+
+// bonus 1
+const scoreDolphins = (97 + 112 + 80) / 3;
+const scoreKoalas = (109 + 95 + 50) / 3;
+console.log(scoreDolphins, scoreKoalas);
+
+if (scoreDolphins > scoreKoalas && scoreDolphins >= 100) {
+  console.log('Dolphins Win');
+} else if (scoreKoalas > scoreDolphins && scoreKoalas >= 100) {
+  console.log('Koalas Win');
+} else if (scoreDolphins === scoreKoalas && scoreDolphins >= 100 && scoreKoalas >= 100) {
+  console.log('Both win');
+} else {
+  console.log('No one wins');
+}
